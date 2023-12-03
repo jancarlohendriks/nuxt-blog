@@ -14,23 +14,28 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/storybook": "7.0.0",
+    "@storybook-vue/nuxt": "0.2.0",
+    "@storybook/addon-actions": "^7.6.3",
+    "@storybook/addon-backgrounds": "^7.6.3",
+    "@storybook/addon-docs": "^7.6.3",
+    "@storybook/addon-essentials": "7.5.3",
+    "@storybook/addon-interactions": "7.5.3",
+    "@storybook/addon-knobs": "^7.0.2",
+    "@storybook/addon-links": "7.5.3",
+    "@storybook/blocks": "7.5.3",
+    "@storybook/builder-vite": "7.5.3",
+    "@storybook/testing-library": "^0.2.0",
+    "@storybook/vue3": "7.5.3",
+    "@types/node": "^18.17.5",
     "nuxt": "^3.8.2",
-    "vue": "^3.3.8",
-    "vue-router": "^4.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "7.5.3",
-    "@types/node": "^18.17.5",
-    "@storybook/vue3": "7.5.3",
-    "@storybook-vue/nuxt": "0.2.0",
-    "@storybook/addon-links": "7.5.3",
-    "@storybook/builder-vite": "7.5.3",
-    "@storybook/addon-essentials": "7.5.3",
-    "@storybook/addon-interactions": "7.5.3",
-    "@storybook/testing-library": "^0.2.0",
-    "@storybook/blocks": "7.5.3"
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "axios": "^1.6.2"
+    "axios": "^1.6.2",
+    "storybook-addon-designs": "^6.3.1"
   }
 }
